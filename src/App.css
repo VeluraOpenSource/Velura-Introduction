@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #0e1821;
+}
+
 .full-page {
   height: 100dvh;
   width: 100%;
@@ -41,13 +45,11 @@
   gap: 108px;
 }
 
-.dark-bg {
-  background-color: #0e1821;
-}
-
 .introduction-bg-img {
   background-image: url("./assets/first-page-cover.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
 }
