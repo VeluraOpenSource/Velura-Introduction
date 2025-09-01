@@ -1,69 +1,47 @@
-# React + TypeScript + Vite
+# 🚀 [Company Name] – Official Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official website of **[Company Name]**, an open-source company focused on building and sharing innovative projects across multiple languages, technologies, and domains.
 
-Currently, two official plugins are available:
+This website is built with **React** and serves as the central hub for introducing our vision, mission, and values.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 About Us
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+We are an open-source organization dedicated to:
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Creating high-quality and accessible software
+- Empowering developers and organizations worldwide
+- Fostering collaboration, transparency, and innovation
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Our long-term goal is to grow into a trusted partner for enterprises while keeping open-source at the heart of everything we do.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📌 Features
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Company introduction and branding
+- Clear mission and vision statements
+- Highlight of core values and goals
+- A simple and elegant design for presenting who we are
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🤝 Contributing
+
+This repository is mainly for our official website.
+If you'd like to contribute to our open-source projects, please check out our other repositories in the [organization profile](https://github.com/VeluraOpenSource).
+
+---
+
+## 📫 Contact
+
+For collaborations, partnerships, or inquiries:
+
+- 🌐 Website: [Velura](https://www.velura-open-source-r36i.vercel.app)
+- 💼 LinkedIn: [LinkedIn Page](https://www.linkedin.com/company/velura-open-source)
+- 📧 Email: AliMoradi0Business@gmail.com
+
+---
+
+⭐ Don’t forget to give us a star if you support our mission!
