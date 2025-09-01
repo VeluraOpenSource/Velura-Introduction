@@ -38,7 +38,7 @@ If you'd like to contribute to our open-source projects, please check out our ot
 
 For collaborations, partnerships, or inquiries:
 
-- 🌐 Website: [Velura](https://www.velura-open-source-r36i.vercel.app)
+- 🌐 Website: [Velura](https://velura-open-source-r36i.vercel.app)
 - 💼 LinkedIn: [LinkedIn Page](https://www.linkedin.com/company/velura-open-source)
 - 📧 Email: AliMoradi0Business@gmail.com
 
