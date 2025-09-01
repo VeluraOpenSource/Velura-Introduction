@@ -1,6 +1,6 @@
 export const GoalsAndTasksAnswer = () => {
   return (
-    <div data-aos="zoom-in" className="full-page center-section">
+    <div className="full-page center-section">
       <p className="paragraph">
         we focus on building high-quality open-source projects that empower
         developers, improve workflow efficiency, and provide secure, scalable
