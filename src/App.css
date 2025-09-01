@@ -31,17 +31,18 @@ body {
   font-size: 180px;
   font-weight: bold;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 .wrap-heading {
   text-wrap: wrap;
-  max-width: 950px;
 }
 
 .paragraph {
   font-size: 54px;
   font-weight: 600;
   color: #bac1cc;
+  text-transform: capitalize;
 }
 
 .bottom-section {
