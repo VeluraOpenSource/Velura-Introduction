@@ -9,6 +9,7 @@ import { GoalsAndTasksQuestion } from "./components/slides/GoalsAndTasksQuestion
 import { Introduction } from "./components/slides/Introduction.component";
 import { VisionAnswer } from "./components/slides/VisionAnswer.component";
 import { VisionQuestion } from "./components/slides/VisionQuestion.component";
+import { TheEnd } from "./components/slides/TheEnd.component";
 
 function App() {
   React.useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
       <VisionAnswer />
       <GoalsAndTasksQuestion />
       <GoalsAndTasksAnswer />
+      <TheEnd />
     </div>
   );
 }
