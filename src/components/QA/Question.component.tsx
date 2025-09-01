@@ -1,14 +1,9 @@
 import type React from "react";
+import type { ISlide } from "../../data/slides";
 
-interface QuestionProps {
-  question: string;
-  followUpQuestions: string;
-}
-
-export const Question: React.FC<QuestionProps> = ({
-  question,
-  followUpQuestions,
-}) => {
+export const Question: React.FC<
+  Pick<ISlide, "question" | "followUpQuestions">
+> = ({ question, followUpQuestions }) => {
   return (
     <div className="full-page center-section">
       <h2 data-aos="fade-right" className="heading">
