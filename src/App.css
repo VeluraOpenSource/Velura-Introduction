@@ -16,6 +16,11 @@
   color: #ffffff;
 }
 
+.wrap-heading {
+  text-wrap: wrap;
+  max-width: 950px;
+}
+
 .paragraph {
   font-size: 54px;
   font-weight: 600;
@@ -27,6 +32,17 @@
   flex-direction: column;
   justify-content: end;
   gap: 24px;
+}
+
+.center-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 108px;
+}
+
+.dark-bg {
+  background-color: #0e1821;
 }
 
 .introduction-bg-img {
