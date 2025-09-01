@@ -1,7 +1,12 @@
 import "./App.css";
+import { Introduction } from "./components/slides/Introduction.component";
 
 function App() {
-  return <></>;
+  return (
+    <div>
+      <Introduction />
+    </div>
+  );
 }
 
 export default App;
