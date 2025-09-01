@@ -45,6 +45,12 @@ body {
   gap: 108px;
 }
 
+.center-section-no-gap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .introduction-bg-img {
   background-image: url("./assets/first-page-cover.png");
   background-position: center;
