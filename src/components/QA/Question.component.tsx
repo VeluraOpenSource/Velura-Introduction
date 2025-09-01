@@ -7,6 +7,7 @@ export const Question: React.FC<
   return (
     <div className="full-page center-section">
       <h2 data-aos="fade-right" className="heading">
+        <div className="line"></div>
         {question}
       </h2>
       <p data-aos="fade-left" className="paragraph">
