@@ -12,7 +12,10 @@ import { VisionQuestion } from "./components/slides/VisionQuestion.component";
 
 function App() {
   React.useEffect(() => {
-    AOS.init();
+    AOS.init({
+      duration: 500,
+      delay: 100,
+    });
   }, []);
 
   return (

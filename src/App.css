@@ -22,6 +22,7 @@
 body {
   background-color: #0e1821;
   font-family: "SpaceGrotesk", sans-serif;
+  overflow-x: hidden;
 }
 
 .full-page {
