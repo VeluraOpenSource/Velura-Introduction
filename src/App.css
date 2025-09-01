@@ -33,7 +33,7 @@ body {
 
 @layer components {
   .full-page {
-    @apply h-dvh w-full py-26 px-16 overflow-x-hidden;
+    @apply h-auto md:h-dvh w-full py-26 px-16 overflow-x-hidden;
   }
 
   .heading {

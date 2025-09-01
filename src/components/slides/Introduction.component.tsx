@@ -1,6 +1,6 @@
 export const Introduction = () => {
   return (
-    <div className="full-page flex items-center justify-center flex-col sm:bottom-section introduction-bg-img">
+    <div className="full-page h-dvh flex items-center justify-center flex-col sm:bottom-section introduction-bg-img">
       <h1 data-aos="fade-up" className="heading text-[80px]">
         velura
       </h1>
