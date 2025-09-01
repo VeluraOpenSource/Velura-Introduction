@@ -37,7 +37,7 @@ body {
   }
 
   .heading {
-    @apply font-bold text-white uppercase relative text-[30px] sm:text-[80px] lg:text-[180px];
+    @apply font-bold text-white uppercase relative text-[30px] sm:text-[80px] lg:text-[130px];
   }
 
   .line {
