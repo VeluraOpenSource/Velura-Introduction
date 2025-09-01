@@ -37,9 +37,7 @@ body {
   }
 
   .heading {
-    @apply font-bold text-white uppercase relative;
-
-    font-size: 180px;
+    @apply font-bold text-white uppercase relative text-[30px] sm:text-[80px] lg:text-[180px];
   }
 
   .line {
@@ -53,7 +51,7 @@ body {
   }
 
   .paragraph {
-    @apply text-[54px] font-semibold capitalize;
+    @apply text-[20px] sm:text-[30px] lg:text-[54px] font-semibold capitalize;
 
     color: #bac1cc;
   }
