@@ -4,12 +4,11 @@ import "aos/dist/aos.css";
 import React from "react";
 import AOS from "aos";
 
-import { GoalsAndTasksAnswer } from "./components/slides/GoalsAndTasksAnswer.component";
-import { GoalsAndTasksQuestion } from "./components/slides/GoalsAndTasksQuestion.component";
 import { Introduction } from "./components/slides/Introduction.component";
-import { VisionAnswer } from "./components/slides/VisionAnswer.component";
-import { VisionQuestion } from "./components/slides/VisionQuestion.component";
 import { TheEnd } from "./components/slides/TheEnd.component";
+import { slides } from "./data/slides";
+import { Question } from "./components/QA/Question.component";
+import { Answer } from "./components/QA/Answer.component";
 
 function App() {
   React.useEffect(() => {
@@ -22,10 +21,17 @@ function App() {
   return (
     <div>
       <Introduction />
-      <VisionQuestion />
-      <VisionAnswer />
-      <GoalsAndTasksQuestion />
-      <GoalsAndTasksAnswer />
+
+      {slides.map((el, index) => (
+        <React.Fragment key={`slide-${index}`}>
+          <Question
+            question={el.question}
+            followUpQuestions={el.followUpQuestions}
+          />
+          <Answer answer={el.answer} />
+        </React.Fragment>
+      ))}
+
       <TheEnd />
     </div>
   );
