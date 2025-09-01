@@ -1,6 +1,6 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
-@import url("./styles/fonts.css");
+@import url('./styles/fonts.css');
 
 ::-webkit-scrollbar {
   width: 0.3vw;
@@ -27,21 +27,21 @@
 
 body {
   background-color: #0e1821;
-  font-family: "SpaceGrotesk", sans-serif;
+  font-family: 'SpaceGrotesk', sans-serif;
   overflow-x: hidden;
 }
 
 @layer components {
   .full-page {
-    @apply h-auto md:h-dvh w-full py-26 px-16 overflow-x-hidden;
+    @apply h-auto w-full overflow-x-hidden px-16 py-26 md:h-dvh;
   }
 
   .heading {
-    @apply font-bold text-white uppercase relative text-[30px] sm:text-[80px] lg:text-[130px];
+    @apply relative text-[30px] font-bold text-white uppercase sm:text-[80px] lg:text-[130px];
   }
 
   .line {
-    @apply absolute top-0 inset-x-0 w-full h-1 bg-[#4f22c24d];
+    @apply absolute inset-x-0 top-0 h-1 w-full bg-[#4f22c24d];
 
     border-radius: 60px;
   }
@@ -51,7 +51,7 @@ body {
   }
 
   .paragraph {
-    @apply text-[20px] sm:text-[30px] lg:text-[54px] font-semibold capitalize;
+    @apply text-[20px] font-semibold capitalize sm:text-[30px] lg:text-[54px];
 
     color: #bac1cc;
   }
@@ -71,7 +71,7 @@ body {
   .introduction-bg-img {
     @apply rounded-b-[60px];
 
-    background-image: url("./assets/first-page-cover.png");
+    background-image: url('./assets/first-page-cover.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

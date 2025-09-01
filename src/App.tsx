@@ -1,14 +1,14 @@
-import "./App.css";
-import "aos/dist/aos.css";
+import './App.css';
+import 'aos/dist/aos.css';
 
-import React from "react";
-import AOS from "aos";
+import React from 'react';
+import AOS from 'aos';
 
-import { Introduction } from "./components/slides/Introduction.component";
-import { TheEnd } from "./components/slides/TheEnd.component";
-import { slides } from "./data/slides";
-import { Question } from "./components/QA/Question.component";
-import { Answer } from "./components/QA/Answer.component";
+import { Introduction } from './components/slides/Introduction.component';
+import { TheEnd } from './components/slides/TheEnd.component';
+import { slides } from './data/slides';
+import { Question } from './components/QA/Question.component';
+import { Answer } from './components/QA/Answer.component';
 
 function App() {
   React.useEffect(() => {
